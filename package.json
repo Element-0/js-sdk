@@ -1,0 +1,28 @@
+{
+  "name": "ezjssdk",
+  "version": "0.0.0",
+  "description": "Element Zero sdk for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElementZero/ezjssdk.git"
+  },
+  "keywords": [
+    "ElementZero",
+    "Node.js",
+    "ws-gateway",
+    "websocket"
+  ],
+  "author": "CodeHz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElementZero/ezjssdk/issues"
+  },
+  "homepage": "https://github.com/ElementZero/ezjssdk#readme",
+  "dependencies": {
+    "ws-gw": "git+https://git@github.com/codehz/ws-gw.js.git"
+  }
+}
