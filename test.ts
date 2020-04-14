@@ -10,6 +10,7 @@ async function main() {
     const resp = await sess.executeCommand("help");
     console.log(resp);
     sess.onPlayerChange(console.log);
+    sess.onChat(console.log);
   });
 }
 
