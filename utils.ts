@@ -8,26 +8,26 @@ export function uuidToString(buffer: Uint8Array): string {
   let i = 0;
   console.log(buffer.length);
   return (
-    byteToHex[buffer[i++]] +
-    byteToHex[buffer[i++]] +
-    byteToHex[buffer[i++]] +
-    byteToHex[buffer[i++]] +
+    byteToHex[buffer[7]] +
+    byteToHex[buffer[6]] +
+    byteToHex[buffer[5]] +
+    byteToHex[buffer[4]] +
     "-" +
-    byteToHex[buffer[i++]] +
-    byteToHex[buffer[i++]] +
+    byteToHex[buffer[3]] +
+    byteToHex[buffer[2]] +
     "-" +
-    byteToHex[buffer[i++]] +
-    byteToHex[buffer[i++]] +
+    byteToHex[buffer[1]] +
+    byteToHex[buffer[0]] +
     "-" +
-    byteToHex[buffer[i++]] +
-    byteToHex[buffer[i++]] +
+    byteToHex[buffer[15]] +
+    byteToHex[buffer[14]] +
     "-" +
-    byteToHex[buffer[i++]] +
-    byteToHex[buffer[i++]] +
-    byteToHex[buffer[i++]] +
-    byteToHex[buffer[i++]] +
-    byteToHex[buffer[i++]] +
-    byteToHex[buffer[i++]]
+    byteToHex[buffer[13]] +
+    byteToHex[buffer[12]] +
+    byteToHex[buffer[11]] +
+    byteToHex[buffer[10]] +
+    byteToHex[buffer[9]] +
+    byteToHex[buffer[8]]
   );
 }
 
